@@ -10,7 +10,9 @@ int main(void)
     if(val == 'y'){
         printf("You know how to use Git!");
     }
-
+    else{
+        printf("no y entered");
+    }
     printf("\n");
 
     return 0;
